@@ -1,0 +1,721 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 6781326c-6e0d-4753-8f28-0f5c687e01f9)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "Page-tek-mech:LOGO" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "LOGO" (id 0) (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Page-tek-mech_LOGO" (id 1) (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at -1.651 -1.524 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at -1.651 -1.524 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "LOGO_0_1"
+        (rectangle (start -6.35 2.54) (end 6.35 -2.54)
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -4.826 1.651)
+            (xy -4.826 -1.524)
+            (xy -2.921 -1.524)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.016 1.651)
+            (xy -1.651 1.651)
+            (xy -2.286 1.016)
+            (xy -2.286 -0.889)
+            (xy -1.651 -1.524)
+            (xy -1.016 -1.524)
+            (xy -0.381 -0.889)
+            (xy -0.381 1.016)
+            (xy -1.016 1.651)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 4.064 1.651)
+            (xy 3.429 1.651)
+            (xy 2.794 1.016)
+            (xy 2.794 -0.889)
+            (xy 3.429 -1.524)
+            (xy 4.064 -1.524)
+            (xy 4.699 -0.889)
+            (xy 4.699 1.016)
+            (xy 4.064 1.651)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.159 1.016)
+            (xy 1.524 1.651)
+            (xy 0.889 1.651)
+            (xy 0.254 1.016)
+            (xy 0.254 -0.889)
+            (xy 0.889 -1.524)
+            (xy 1.524 -1.524)
+            (xy 2.159 -0.889)
+            (xy 2.159 -0.254)
+            (xy 1.524 -0.254)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+      )
+    )
+  )
+
+
+  (text "18650 Battery\n12V Power connector\nDRV818 radio module\n12V > 4.2V switch mode\n4.2V > 3.3V switch mode"
+    (at 90.17 105.41 0)
+    (effects (font (size 2.0066 2.0066)) (justify left bottom))
+    (uuid 82be7aae-5d06-4178-8c3e-98760c41b054)
+  )
+  (text "STM32 Micro\nSD Card connector\nGPS\nMicrophone PWM filter"
+    (at 149.86 105.41 0)
+    (effects (font (size 2.0066 2.0066)) (justify left bottom))
+    (uuid e1535036-5d36-405f-bb86-3819621c4f23)
+  )
+
+  (symbol (lib_id "Page-tek-mech:LOGO") (at 233.68 63.5 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 00000000-0000-0000-0000-000060b6b7f6)
+    (property "Reference" "LOGO101" (id 0) (at 240.7412 62.3316 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "LOGO" (id 1) (at 240.7412 64.643 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Page-tek-Logo:logo_12.5mm" (id 2) (at 232.029 65.024 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 232.029 65.024 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
+  (symbol (lib_id "Page-tek-mech:LOGO") (at 233.68 78.74 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 00000000-0000-0000-0000-000060b6bb73)
+    (property "Reference" "LOGO102" (id 0) (at 240.7412 77.5716 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "LOGO" (id 1) (at 240.7412 79.883 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Page-tek-Logo:page-tek_25mm" (id 2) (at 232.029 80.264 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 232.029 80.264 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
+  (sheet (at 90.17 60.96) (size 44.45 20.32) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-0000609a2086)
+    (property "Sheet name" "TRX_PCB" (id 0) (at 90.17 60.2484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "TRX_PCB.kicad_sch" (id 1) (at 90.17 81.8646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 149.86 60.96) (size 44.45 20.32) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-0000609a2f2a)
+    (property "Sheet name" "MICRO_PCB" (id 0) (at 149.86 60.2484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "MICRO_PCB.kicad_sch" (id 1) (at 149.86 81.8646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/00000000-0000-0000-0000-0000609a2086" (page "2"))
+    (path "/00000000-0000-0000-0000-0000609a2f2a" (page "3"))
+  )
+
+  (symbol_instances
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060b44f6f"
+      (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b51a47"
+      (reference "#FLG0102") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b52486"
+      (reference "#FLG0103") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b5362b"
+      (reference "#FLG0104") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060c08c84"
+      (reference "#FLG0105") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060de9179"
+      (reference "#FLG0106") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060c05992"
+      (reference "#FLG0107") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060ad2c99"
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060b583ce"
+      (reference "#PWR0102") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d24d"
+      (reference "#PWR0201") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d393"
+      (reference "#PWR0202") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d303"
+      (reference "#PWR0203") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d34b"
+      (reference "#PWR0204") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d293"
+      (reference "#PWR0205") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d2a6"
+      (reference "#PWR0206") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d33f"
+      (reference "#PWR0207") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d299"
+      (reference "#PWR0208") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d25c"
+      (reference "#PWR0209") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d345"
+      (reference "#PWR0210") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d2c4"
+      (reference "#PWR0211") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d3b1"
+      (reference "#PWR0212") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d30f"
+      (reference "#PWR0213") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d2d1"
+      (reference "#PWR0214") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d2de"
+      (reference "#PWR0215") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d3ef"
+      (reference "#PWR0216") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d3f5"
+      (reference "#PWR0217") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d372"
+      (reference "#PWR0218") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d3fb"
+      (reference "#PWR0219") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d401"
+      (reference "#PWR0220") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d35a"
+      (reference "#PWR0221") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d36c"
+      (reference "#PWR0222") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060a1f3c7"
+      (reference "#PWR0223") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-0000609f9788"
+      (reference "#PWR0224") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-0000609ddfae"
+      (reference "#PWR0225") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060993c82"
+      (reference "#PWR0226") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-0000609a2839"
+      (reference "#PWR0227") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-0000609cbf7d"
+      (reference "#PWR0228") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b53218"
+      (reference "#PWR0229") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060a38c06"
+      (reference "#PWR0301") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060a38bde"
+      (reference "#PWR0302") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060a38bfe"
+      (reference "#PWR0303") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060a38b42"
+      (reference "#PWR0304") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060b47e2d"
+      (reference "#PWR0305") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060a38b48"
+      (reference "#PWR0306") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-0000609fbfb1"
+      (reference "#PWR0307") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060a38b5e"
+      (reference "#PWR0308") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060a38b4e"
+      (reference "#PWR0309") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-0000609fbfb7"
+      (reference "#PWR0310") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060a38b6b"
+      (reference "#PWR0311") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060a38b78"
+      (reference "#PWR0312") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060a38b85"
+      (reference "#PWR0313") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-0000609fbf98"
+      (reference "#PWR0314") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060a38bb4"
+      (reference "#PWR0315") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060a38bc4"
+      (reference "#PWR0316") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060a38b92"
+      (reference "#PWR0317") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-0000609d786b"
+      (reference "#PWR0318") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-0000609d7873"
+      (reference "#PWR0319") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-0000609d7861"
+      (reference "#PWR0320") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-0000609d7851"
+      (reference "#PWR0321") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-0000609d7813"
+      (reference "#PWR0322") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060a38c31"
+      (reference "#PWR0323") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-0000609d7844"
+      (reference "#PWR0324") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-0000609d77fd"
+      (reference "#PWR0325") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060a38bec"
+      (reference "#PWR0326") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-0000609d7838"
+      (reference "#PWR0327") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-0000609d7826"
+      (reference "#PWR0328") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060b1ded0"
+      (reference "#PWR0329") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-0000609d7891"
+      (reference "#PWR0330") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060cf53e2"
+      (reference "#PWR0331") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060cf5ad6"
+      (reference "#PWR0332") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060994057"
+      (reference "#PWR0333") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-0000609d609b"
+      (reference "#PWR0334") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-0000609d6095"
+      (reference "#PWR0335") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060b0aa9c"
+      (reference "#PWR0336") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060a9389a"
+      (reference "#PWR0337") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060a5b79d"
+      (reference "#PWR0338") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060ac744f"
+      (reference "#PWR0339") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060ab8d8f"
+      (reference "#PWR0340") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d23b"
+      (reference "BT201") (unit 1) (value "Battery") (footprint "Page-tek-Mech:1043-18650")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d2fd"
+      (reference "C201") (unit 1) (value "10u") (footprint "Page-tek-SMDpassive:CAPC160X80X90L35N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d27e"
+      (reference "C202") (unit 1) (value "10u") (footprint "Page-tek-SMDpassive:CAPC160X80X90L35N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d278"
+      (reference "C203") (unit 1) (value "100n") (footprint "Page-tek-SMDpassive:CAPC160X80X90L35N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d32e"
+      (reference "C204") (unit 1) (value "22p") (footprint "Page-tek-SMDpassive:CAPC160X80X90L35N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d2bd"
+      (reference "C205") (unit 1) (value "22p") (footprint "Page-tek-SMDpassive:CAPC160X80X90L35N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d309"
+      (reference "C206") (unit 1) (value "10u") (footprint "Page-tek-SMDpassive:CAPC160X80X90L35N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d2ca"
+      (reference "C207") (unit 1) (value "39p") (footprint "Page-tek-SMDpassive:CAPC160X80X90L35N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d2d7"
+      (reference "C208") (unit 1) (value "22p") (footprint "Page-tek-SMDpassive:CAPC160X80X90L35N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-0000609f9278"
+      (reference "C209") (unit 1) (value "100n") (footprint "Page-tek-SMDpassive:CAPC160X80X90L35N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-0000609ddc78"
+      (reference "C210") (unit 1) (value "220u") (footprint "Page-tek-SMDpassive:CAPAE830X1030L290X95N")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-00006099b3b9"
+      (reference "C211") (unit 1) (value "100n") (footprint "Page-tek-SMDpassive:CAPC160X80X90L35N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-0000609a2825"
+      (reference "C212") (unit 1) (value "22p") (footprint "Page-tek-SMDpassive:CAPC160X80X90L35N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-0000609cade1"
+      (reference "C213") (unit 1) (value "220u") (footprint "Page-tek-SMDpassive:CAPAE830X1030L290X95N")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b52e1e"
+      (reference "C214") (unit 1) (value "10u") (footprint "Page-tek-SMDpassive:CAPC160X80X90L35N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060a38b2d"
+      (reference "C301") (unit 1) (value "22p") (footprint "Page-tek-SMDpassive:CAPC160X80X90L35N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060a38b33"
+      (reference "C302") (unit 1) (value "22p") (footprint "Page-tek-SMDpassive:CAPC160X80X90L35N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-0000609fbfbd"
+      (reference "C303") (unit 1) (value "100n") (footprint "Page-tek-SMDpassive:CAPC160X80X90L35N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060a38b64"
+      (reference "C304") (unit 1) (value "100n") (footprint "Page-tek-SMDpassive:CAPC160X80X90L35N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060a38b71"
+      (reference "C305") (unit 1) (value "100n") (footprint "Page-tek-SMDpassive:CAPC160X80X90L35N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060a38b7e"
+      (reference "C306") (unit 1) (value "100n") (footprint "Page-tek-SMDpassive:CAPC160X80X90L35N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060a38bbd"
+      (reference "C307") (unit 1) (value "100n") (footprint "Page-tek-SMDpassive:CAPC160X80X90L35N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060a38b8b"
+      (reference "C308") (unit 1) (value "100n") (footprint "Page-tek-SMDpassive:CAPC160X80X90L35N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-0000609d7879"
+      (reference "C309") (unit 1) (value "100n") (footprint "Page-tek-SMDpassive:CAPC160X80X90L35N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060a38c37"
+      (reference "C310") (unit 1) (value "390p") (footprint "Page-tek-SMDpassive:CAPC160X80X90L35N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-0000609d783e"
+      (reference "C311") (unit 1) (value "DNI") (footprint "Page-tek-SMDpassive:CAPC160X80X90L35N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060a38c49"
+      (reference "C312") (unit 1) (value "1n8") (footprint "Page-tek-SMDpassive:CAPC160X80X90L35N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-0000609d7832"
+      (reference "C313") (unit 1) (value "10u") (footprint "Page-tek-SMDpassive:CAPC160X80X90L35N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-0000609d781f"
+      (reference "C314") (unit 1) (value "100n") (footprint "Page-tek-SMDpassive:CAPC160X80X90L35N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060b1ca3b"
+      (reference "C315") (unit 1) (value "1u") (footprint "Page-tek-SMDpassive:CAPC160X80X90L35N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060b2c9ac"
+      (reference "C316") (unit 1) (value "1u") (footprint "Page-tek-SMDpassive:CAPC160X80X90L35N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060c6b77f"
+      (reference "C317") (unit 1) (value "1u") (footprint "Page-tek-SMDpassive:CAPC160X80X90L35N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-0000609d6087"
+      (reference "C318") (unit 1) (value "DNI") (footprint "Page-tek-SMDpassive:CAPC160X80X90L35N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-0000609d6081"
+      (reference "C319") (unit 1) (value "DNI") (footprint "Page-tek-SMDpassive:CAPC160X80X90L35N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060a5b30a"
+      (reference "C320") (unit 1) (value "10u") (footprint "Page-tek-SMDpassive:CAPC160X80X90L35N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-0000609fbf92"
+      (reference "CONN301") (unit 1) (value "ST1W008S4ER1500") (footprint "Page-tek-Conn:JAE_ST1W008S4ER1500")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060ab84e9"
+      (reference "D301") (unit 1) (value "RED") (footprint "Page-tek-Active:LEDC200X125X90L40N-0805")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d284"
+      (reference "E201") (unit 1) (value "120") (footprint "Page-tek-SMDpassive:RESC160X80X55L30N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060a6fe00"
+      (reference "E202") (unit 1) (value "120") (footprint "Page-tek-SMDpassive:RESC160X80X55L30N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d354"
+      (reference "J201") (unit 1) (value "SMA") (footprint "Page-tek-Conn:sma_90_r300.124.403")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-0000609d788b"
+      (reference "J301") (unit 1) (value "SMA") (footprint "Page-tek-Conn:MOLEX-0734152063-MCX-SMD")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d378"
+      (reference "L201") (unit 1) (value "4u7") (footprint "Page-tek-SMDpassive:Coilcraft_XAL4030")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d2e4"
+      (reference "L202") (unit 1) (value "56n") (footprint "Page-tek-SMDpassive:Coilcraft_1812SMS")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d2ea"
+      (reference "L203") (unit 1) (value "56n") (footprint "Page-tek-SMDpassive:Coilcraft_1812SMS")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060a7e3f0"
+      (reference "L204") (unit 1) (value "4u7") (footprint "Page-tek-SMDpassive:Coilcraft_XAL4030")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060996b3a"
+      (reference "L205") (unit 1) (value "47u") (footprint "Page-tek-SMDpassive:Wurth_LQS_6045_ind")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-0000609d7885"
+      (reference "L301") (unit 1) (value "27n") (footprint "Page-tek-SMDpassive:INDC180X76X102L33N-CC0603")
+    )
+    (path "/00000000-0000-0000-0000-000060b6b7f6"
+      (reference "LOGO101") (unit 1) (value "LOGO") (footprint "Page-tek-Logo:logo_12.5mm")
+    )
+    (path "/00000000-0000-0000-0000-000060b6bb73"
+      (reference "LOGO102") (unit 1) (value "LOGO") (footprint "Page-tek-Logo:page-tek_25mm")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d360"
+      (reference "MH201") (unit 1) (value "MH") (footprint "Page-tek-Mech:MTGP600H320V6H60")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d366"
+      (reference "MH202") (unit 1) (value "MH") (footprint "Page-tek-Mech:MTGP600H320V6H60")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060b12bfd"
+      (reference "MH301") (unit 1) (value "MHNP") (footprint "Page-tek-Mech:MTGNP500H300Z400")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d385"
+      (reference "P201") (unit 1) (value "CONN_01X06") (footprint "Page-tek-Conn:HDRV6W64P254_6X1_1524X254H860")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d39b"
+      (reference "P202") (unit 1) (value "CONN_01X06") (footprint "Page-tek-Conn:HDRV6W64P254_6X1_1524X254H860")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060a11d6d"
+      (reference "P203") (unit 1) (value "CONN_01X02") (footprint "Page-tek-Conn:JST-S2B-PH-SM4-TB")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060a38bf2"
+      (reference "P301") (unit 1) (value "CONN_01X06") (footprint "Page-tek-Conn:HDRV6W64P254_6X1_1524X254H860")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060a38bf8"
+      (reference "P302") (unit 1) (value "CONN_01X06") (footprint "Page-tek-Conn:HDRV6W64P254_6X1_1524X254H860")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060a38bd8"
+      (reference "P303") (unit 1) (value "CONN_01X04") (footprint "Page-tek-Conn:HDRV4W64P254_4X1_1016X254H860-alt2")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060abd717"
+      (reference "P304") (unit 1) (value "CONN_01X03") (footprint "Page-tek-Conn:HDRV3W64P254_3X1_762X254H860")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d2a0"
+      (reference "Q201") (unit 1) (value "2n3904") (footprint "Page-tek-Active:SOT23-3P95_237X112L40X40N-SOT23")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d2ac"
+      (reference "R201") (unit 1) (value "47k") (footprint "Page-tek-SMDpassive:RESC160X80X55L30N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d327"
+      (reference "R202") (unit 1) (value "100k") (footprint "Page-tek-SMDpassive:RESC160X80X55L30N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d31b"
+      (reference "R203") (unit 1) (value "270k") (footprint "Page-tek-SMDpassive:RESC160X80X55L30N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d321"
+      (reference "R204") (unit 1) (value "47k") (footprint "Page-tek-SMDpassive:RESC160X80X55L30N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d3b8"
+      (reference "R205") (unit 1) (value "560") (footprint "Page-tek-SMDpassive:RESC200X125X60L35N-0805")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d3be"
+      (reference "R206") (unit 1) (value "560") (footprint "Page-tek-SMDpassive:RESC200X125X60L35N-0805")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d3c4"
+      (reference "R207") (unit 1) (value "33") (footprint "Page-tek-SMDpassive:RESC200X125X60L35N-0805")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d3ca"
+      (reference "R208") (unit 1) (value "33") (footprint "Page-tek-SMDpassive:RESC200X125X60L35N-0805")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d3d0"
+      (reference "R209") (unit 1) (value "560") (footprint "Page-tek-SMDpassive:RESC200X125X60L35N-0805")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d3d6"
+      (reference "R210") (unit 1) (value "560") (footprint "Page-tek-SMDpassive:RESC200X125X60L35N-0805")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060a8b8f1"
+      (reference "R211") (unit 1) (value "DNI") (footprint "Page-tek-SMDpassive:RESC160X80X55L30N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060a7a56d"
+      (reference "R212") (unit 1) (value "DNI") (footprint "Page-tek-SMDpassive:RESC160X80X55L30N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-0000609a281b"
+      (reference "R213") (unit 1) (value "100k") (footprint "Page-tek-SMDpassive:RESC160X80X55L30N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-0000609a23f9"
+      (reference "R214") (unit 1) (value "270k") (footprint "Page-tek-SMDpassive:RESC160X80X55L30N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-0000609a2811"
+      (reference "R215") (unit 1) (value "47k") (footprint "Page-tek-SMDpassive:RESC160X80X55L30N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-0000609d5687"
+      (reference "R216") (unit 1) (value "DNI") (footprint "Page-tek-SMDpassive:RESC160X80X55L30N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060b47a6d"
+      (reference "R301") (unit 1) (value "47k") (footprint "Page-tek-SMDpassive:RESC160X80X55L30N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-0000609fbfce"
+      (reference "R302") (unit 1) (value "47k") (footprint "Page-tek-SMDpassive:RESC160X80X55L30N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060a38bae"
+      (reference "R303") (unit 1) (value "47k") (footprint "Page-tek-SMDpassive:RESC160X80X55L30N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-0000609d785b"
+      (reference "R304") (unit 1) (value "DNI") (footprint "Page-tek-SMDpassive:RESC160X80X55L30N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060a38c43"
+      (reference "R305") (unit 1) (value "15k") (footprint "Page-tek-SMDpassive:RESC160X80X55L30N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060a38c3d"
+      (reference "R306") (unit 1) (value "100k") (footprint "Page-tek-SMDpassive:RESC160X80X55L30N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-0000609d787f"
+      (reference "R307") (unit 1) (value "10") (footprint "Page-tek-SMDpassive:RESC160X80X55L30N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060c6ab65"
+      (reference "R308") (unit 1) (value "47k") (footprint "Page-tek-SMDpassive:RESC160X80X55L30N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060c6b304"
+      (reference "R309") (unit 1) (value "47k") (footprint "Page-tek-SMDpassive:RESC160X80X55L30N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060a16537"
+      (reference "R310") (unit 1) (value "47k") (footprint "Page-tek-SMDpassive:RESC160X80X55L30N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060abbd2a"
+      (reference "R311") (unit 1) (value "47k") (footprint "Page-tek-SMDpassive:RESC160X80X55L30N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060ac6f83"
+      (reference "R312") (unit 1) (value "DNI") (footprint "Page-tek-SMDpassive:RESC160X80X55L30N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060ab779c"
+      (reference "R313") (unit 1) (value "1k5") (footprint "Page-tek-SMDpassive:RESC160X80X55L30N-0603")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060b1d669"
+      (reference "RV301") (unit 1) (value "POT") (footprint "Page-tek-SMDpassive:Bourns_TC33")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d247"
+      (reference "TP201") (unit 1) (value "TP") (footprint "Page-tek-Conn:TP-SQ-2mm")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d241"
+      (reference "TP202") (unit 1) (value "TP") (footprint "Page-tek-Conn:TP-SQ-2mm")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d2b3"
+      (reference "TP203") (unit 1) (value "TP") (footprint "Page-tek-Conn:TP-SQ-2mm")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060a87160"
+      (reference "TP301") (unit 1) (value "TP") (footprint "Page-tek-Conn:TP-1.5mm")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060aa3eb2"
+      (reference "TP302") (unit 1) (value "TP") (footprint "Page-tek-Conn:TP-1.5mm")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060b0afda"
+      (reference "TP303") (unit 1) (value "TP") (footprint "Page-tek-Conn:TP-1.5mm")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060b0b658"
+      (reference "TP304") (unit 1) (value "TP") (footprint "Page-tek-Conn:TP-1.5mm")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060b765f6"
+      (reference "TP305") (unit 1) (value "TP") (footprint "Page-tek-Conn:TP-1.5mm")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060b76a8a"
+      (reference "TP306") (unit 1) (value "TP") (footprint "Page-tek-Conn:TP-1.5mm")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d2f7"
+      (reference "U201") (unit 1) (value "LTC3405A") (footprint "Page-tek-Active:SOT23-6P95_280X145L45X40N")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-000060b0d256"
+      (reference "U202") (unit 1) (value "DRA818V") (footprint "Page-tek-Modules:DRA818")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2086/00000000-0000-0000-0000-0000609927f5"
+      (reference "U203") (unit 1) (value "TPS561201") (footprint "Page-tek-Active:SOT23-6P65_210X110L36X22N-SOT323-6")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060a38b21"
+      (reference "U301") (unit 1) (value "STM32F103C") (footprint "Page-tek-Active:QFP48P50_900X900X120L60X22N-TQFP48")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-0000609d782c"
+      (reference "U302") (unit 1) (value "ADP150-3V3") (footprint "Page-tek-Active:SOT23-5P95_280X145L45X40N")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-0000609d77f7"
+      (reference "U303") (unit 1) (value "NEO-6M-0-001") (footprint "Page-tek-Modules:ublox-NEO-6")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-000060a38c26"
+      (reference "U304") (unit 1) (value "LMV931") (footprint "Page-tek-Active:SOT23-5P65_210X110L36X22N-SOT323-5")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-00006097f335"
+      (reference "X1") (unit 1) (value "8.0MHz") (footprint "Page-tek-SMDpassive:XTAL500X320X130L90X120NN")
+    )
+    (path "/00000000-0000-0000-0000-0000609a2f2a/00000000-0000-0000-0000-0000609e2829"
+      (reference "X2") (unit 1) (value "DNI") (footprint "Page-tek-SMDpassive:XTAL320X150X180L100")
+    )
+  )
+)
