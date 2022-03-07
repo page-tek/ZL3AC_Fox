@@ -1,3 +1,13 @@
+// ZL3AC FOX
+// ---------
+//
+// Compile with the following Arduino IDE settings:
+//
+// Board: Generic STM32F1 series
+// Board Part Number: Blue Pill F103C8
+// U(S)ART support: Enable (generic 'Serial')
+// USB Support: None
+
 
 #include <TinyGPS.h>
 #include <Timezone.h>   // https://github.com/JChristensen/Timezone
@@ -36,7 +46,6 @@ TinyGPS gps;
 HardwareSerial SerialGPS(USART2);
 #define GPSEnable PB0
 
-#define Serial1 Serial
 /* New Zealand Time Zone setup*/
 TimeChangeRule nzSTD = {"NZST", First, Sun, Apr, 3, 720};   // UTC + 12 hours
 TimeChangeRule nzDST = {"NZDT", Last, Sun, Sep, 2, 780};    // UTC + 13 hours
